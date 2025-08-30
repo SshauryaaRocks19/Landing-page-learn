@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.headnhero{
+    background-color: #1F2937;
+}
+
+.headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.links a{
+    color: #E5E7EB;
+}
