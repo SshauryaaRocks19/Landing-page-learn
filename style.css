@@ -50,8 +50,8 @@ a{
 
 .hero{
     display: flex;
-    align-items: center;
-
+    align-items: flex-start;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -60,4 +60,11 @@ a{
     font-weight: 900;
     font-size: 48px;
     
+}
+
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-style: italic;
+
 }
