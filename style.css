@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    flex-direction: column;
 }
 
 ul{
@@ -16,15 +17,19 @@ a{
 .headnhero{
     background-color: #1F2937;
     display: flex;
-    padding: 40px;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-right: 120px;
+    padding-left: 120px;
     flex: 1;
+    gap: 100px;
 }
 
 .header{
     display: flex;
     align-items: center;
     flex: 1;
-    justify-content: space-between;;
+    justify-content: space-between;
 
 }
 
@@ -41,4 +46,18 @@ a{
 
 .links a{
     color: #E5E7EB;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.maintext{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    
 }
