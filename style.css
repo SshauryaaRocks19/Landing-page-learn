@@ -101,7 +101,7 @@ a{
     padding-right: 120px;
     gap: 15px;
     padding-top:25px;
-    padding-bottom:25px;
+    padding-bottom:50px;
 }
 
 .contenthead{
@@ -125,4 +125,31 @@ a{
 .desc{
     color: black;
     font-size: 18px;;
+}
+
+.quotearea{
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: flex-start;
+    align-items: center; 
+    flex: 1;
+    flex-direction: column;
+    padding: 100px;
+    margin: auto;
+
+    
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color:#1F2937;
+
+}
+
+.by{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 23px;
 }
